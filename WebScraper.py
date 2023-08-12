@@ -1,21 +1,3 @@
-'''
-Created on May 19, 2020
-
-@author: Jack
-
-- Uses Beautiful Soup and Requests libraries for html reception
-- Uses sys for UTF-8 encoding
-- Uses urlib and re for regex searching/parsing
-
-WHAT IT DOES:
-- Receives user input keywords as searches
-- Uses those keywords to conduct a google search
-- Parses google searches, returning all relevant websites
-- Uses html parsers and UTF-8 encoding to make html vieweable
-- Parses those websites for email addresses 
-- sends customized emails to those recipients
-- parses email addresses sifting out obvious bad emails.
-'''
 from bs4 import BeautifulSoup
 import urllib
 from urllib.parse import urlsplit
